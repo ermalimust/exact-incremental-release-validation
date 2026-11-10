@@ -1,0 +1,10 @@
+{
+  "accepted_observations": 115051,
+  "oracle_code_sha256": "2a9ef00ac72365681cc77a909bea4c1a2692f545a92d70efe6c9ec1a03df9456",
+  "oracle_implementation": "independent struct parser and direct daily aggregation",
+  "parsed_observations": 115056,
+  "raw_sources_hash_verified": 6,
+  "release_payloads_recomputed": 20,
+  "scientific_artifacts_recomputed": 128,
+  "status": "passed"
+}

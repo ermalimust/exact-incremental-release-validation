@@ -1,0 +1,261 @@
+{
+  "analysis_source_sha256": {
+    "continuous_analysis.py": "6c7b1feac4e0c92fafc732292e22974bb4ff9db43bfe071bff038740c6919905",
+    "distributed_analysis.py": "fb73ab17882cec386bec916a3118980b6612e7207a5098802ce7a929a3856f43"
+  },
+  "band": "pointwise seed minimum/maximum, not a confidence interval",
+  "duration_s": 120,
+  "experiments_run": false,
+  "font_sizes_pt": [
+    9.0,
+    10.0
+  ],
+  "height_mm": 110.0,
+  "history_witnesses": [
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "adaptive_delta",
+      "pruned_through": 3779,
+      "run_id": "retention120s_u40_h1024_s20261109_adaptive_delta",
+      "seed": 20261109
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "full_sql",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261109_full_sql",
+      "seed": 20261109
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "guarded_full",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261109_guarded_full",
+      "seed": 20261109
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "adaptive_delta",
+      "pruned_through": 3779,
+      "run_id": "retention120s_u40_h1024_s20261110_adaptive_delta",
+      "seed": 20261110
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "full_sql",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261110_full_sql",
+      "seed": 20261110
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "guarded_full",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261110_guarded_full",
+      "seed": 20261110
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "adaptive_delta",
+      "pruned_through": 3779,
+      "run_id": "retention120s_u40_h1024_s20261111_adaptive_delta",
+      "seed": 20261111
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "full_sql",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261111_full_sql",
+      "seed": 20261111
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "guarded_full",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261111_guarded_full",
+      "seed": 20261111
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4802,
+      "policy": "adaptive_delta",
+      "pruned_through": 3778,
+      "run_id": "retention120s_u40_h1024_s20261112_adaptive_delta",
+      "seed": 20261112
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4802,
+      "policy": "full_sql",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261112_full_sql",
+      "seed": 20261112
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4802,
+      "policy": "guarded_full",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261112_guarded_full",
+      "seed": 20261112
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "adaptive_delta",
+      "pruned_through": 3779,
+      "run_id": "retention120s_u40_h1024_s20261113_adaptive_delta",
+      "seed": 20261113
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "full_sql",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261113_full_sql",
+      "seed": 20261113
+    },
+    {
+      "history_limit": 1024,
+      "mutations": 4803,
+      "policy": "guarded_full",
+      "pruned_through": 0,
+      "run_id": "retention120s_u40_h1024_s20261113_guarded_full",
+      "seed": 20261113
+    }
+  ],
+  "matplotlib_version": "3.11.2",
+  "offered_per_s": 20.0,
+  "outputs": {
+    "pdf": "d9b2c08b55d414bde89f4e622292cdeeea6707aba786e364d04edeca68a0fe09",
+    "png": "616e58820fe6fd40abdb086dcb97bcc8b2f0bec98681a77b649b06a92c634227",
+    "svg": "1fd00587a1985c9e10b03143898bfe7a8ddf816a6d6a0673560ef229bb94f480",
+    "tiff": "94917e260d45b4352a47279bf4690b14391c7c293c40d1d87513ef6d879dcad4"
+  },
+  "outstanding": "cumulative arrivals minus successful and blocked terminal replies; includes warmup carryover; not only a server queue",
+  "paired_seeds": [
+    20261109,
+    20261110,
+    20261111,
+    20261112,
+    20261113
+  ],
+  "pdf_fonttype": 42,
+  "plot_source_sha256": "3f5c5d5cf7016cbbaa488b5cfd9fe0dc4f519826c2cef8584efcf16af1bc42b0",
+  "preview": {
+    "dpi": 100,
+    "file": "ready_retention_preview.png",
+    "sha256": "d45520c8815cde890490a5bc657be656b7d1738846206845a5d6ea3a83c93428"
+  },
+  "scope": "fixed offered load; measurement window excludes drain; no capacity or steady-state inference",
+  "source_csv_sha256": {
+    "source": "035d698304c8eee030904d08446530bcb57b331a3e70141c6b557791c08e056e",
+    "summary": "f778beb3648fc9ecdd3ee81641e31144b1f990629169d06dfa6f376c106df479"
+  },
+  "sources": {
+    "continuous_analysis": {
+      "file": "continuous_analysis.json",
+      "sha256": "358d955e4b2a65fa6dbb695029d172dd6165bd9fab07975dfd86cca3c1434638"
+    },
+    "history:retention120s_u40_h1024_s20261109_adaptive_delta": {
+      "file": "history_observation.json",
+      "sha256": "7dce30252e90673bb6e85d768ded08dbecaacdf6db4bccfb48911242ed7f7e8a"
+    },
+    "history:retention120s_u40_h1024_s20261109_full_sql": {
+      "file": "history_observation.json",
+      "sha256": "71b8760a5ee7024f8ba1e5cf13df450b6409da0738913a1f098404697d64a6fd"
+    },
+    "history:retention120s_u40_h1024_s20261109_guarded_full": {
+      "file": "history_observation.json",
+      "sha256": "c9a2375e48ae2eb05a8dfba28366c2582ee8f3af60f8ca0e306399c3db45c289"
+    },
+    "history:retention120s_u40_h1024_s20261110_adaptive_delta": {
+      "file": "history_observation.json",
+      "sha256": "577097b5d1783ec695c2e2c012d9adcb98b75d7b53c1800a90f1e028e5259068"
+    },
+    "history:retention120s_u40_h1024_s20261110_full_sql": {
+      "file": "history_observation.json",
+      "sha256": "50b40822596d6c5a72e745ce4e046bb9a371bdc43bd0a448e22d0a39790c76d3"
+    },
+    "history:retention120s_u40_h1024_s20261110_guarded_full": {
+      "file": "history_observation.json",
+      "sha256": "3f2b550fdf387bba8ae1fd49029172324ea89e26dbea2f6c5224400ea981ba66"
+    },
+    "history:retention120s_u40_h1024_s20261111_adaptive_delta": {
+      "file": "history_observation.json",
+      "sha256": "f21a68d4faa7eba23bd8b3eb81c6ef6cdb3cd319898f0faaf97b04c336a877be"
+    },
+    "history:retention120s_u40_h1024_s20261111_full_sql": {
+      "file": "history_observation.json",
+      "sha256": "4e3416d2eb529ab3b2fc490d2f64b5a143bec2d81f183e8d2f23d418a7ea305f"
+    },
+    "history:retention120s_u40_h1024_s20261111_guarded_full": {
+      "file": "history_observation.json",
+      "sha256": "ec357ea33946478ce5c835e836742bebe5a3d96d677e3f220c52528b9b13a2d8"
+    },
+    "history:retention120s_u40_h1024_s20261112_adaptive_delta": {
+      "file": "history_observation.json",
+      "sha256": "0d0306c56b9274992b25e5003c5c58f4529b953766684d0bf812483729925fef"
+    },
+    "history:retention120s_u40_h1024_s20261112_full_sql": {
+      "file": "history_observation.json",
+      "sha256": "cd05a2ccef0fb56fd2050174311b0442b1bd6a969be52abe8e56efae52c86e71"
+    },
+    "history:retention120s_u40_h1024_s20261112_guarded_full": {
+      "file": "history_observation.json",
+      "sha256": "45a32e49e18913ec0c2ff7ae90563cde9cd7da672b9fde8a6bcea157c3bbc9c7"
+    },
+    "history:retention120s_u40_h1024_s20261113_adaptive_delta": {
+      "file": "history_observation.json",
+      "sha256": "dc9348355137ee4a5faad1c34f0f7edce4b138a5c07ef7f6ce0b005e4e161b16"
+    },
+    "history:retention120s_u40_h1024_s20261113_full_sql": {
+      "file": "history_observation.json",
+      "sha256": "abd758055197c417fd783787db0755d4a58a33a5fd8a537579f6343fa502ee1a"
+    },
+    "history:retention120s_u40_h1024_s20261113_guarded_full": {
+      "file": "history_observation.json",
+      "sha256": "68c17022452a607ebf96972d83b2a2c909d20cd5a5750a82889219526efc96f1"
+    }
+  },
+  "status": "exported_and_visually_reviewed",
+  "svg_fonttype": "none",
+  "text_outside_canvas": [],
+  "valid_runs": 15,
+  "visual_review": {
+    "date": "2026-11-10",
+    "embedded_font_types": [
+      "/Type0"
+    ],
+    "full_manuscript_layout_review": "separate root-agent check",
+    "observations": "Panel labels, axes, legends and notes readable; no text clipping or overlap; all declared conditions and seeds preserved. Coincident measurements may share positions.",
+    "outcome": "passed",
+    "pdf_height_mm": 109.99999999998333,
+    "pdf_text_selectable": true,
+    "pdf_width_mm": 121.99999999998471,
+    "png_pixels": [
+      1440,
+      1299
+    ],
+    "svg_text_elements": 29,
+    "tiff_pixels": [
+      2881,
+      2598
+    ],
+    "viewed": [
+      "final 300 dpi Matplotlib PNG",
+      "final 100 dpi nominal-reading-size preview"
+    ]
+  },
+  "warmup_s": 2,
+  "width_mm": 122
+}

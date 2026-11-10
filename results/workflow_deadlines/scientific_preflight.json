@@ -1,0 +1,17 @@
+{
+  "common_file_preflight": "all manifest files hashed/validated before randomized policy timing; upstream ETL is frozen",
+  "compiled_workload_sha256": "9ce0137ca2c309597995710153c618ccd8632a9f6223d3a9a459537f858dfc16",
+  "manifest_sha256": "1fc86e3a9ab4400c13615796fa20e3e68eb180916cf2942fb4d1a107f092fbf3",
+  "scientific_oracle": {
+    "accepted_observations": 115051,
+    "oracle_code_sha256": "39ae34365eda9902f47d3819f0b6a50660c7f44a653f611ab781ccbb07e73881",
+    "oracle_implementation": "independent struct parser and direct daily aggregation",
+    "parsed_observations": 115056,
+    "raw_sources_hash_verified": 6,
+    "release_identity_bindings_verified": 20,
+    "release_payloads_recomputed": 20,
+    "scientific_artifacts_recomputed": 128,
+    "status": "passed"
+  },
+  "status": "passed"
+}

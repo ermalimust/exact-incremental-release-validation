@@ -1,0 +1,17 @@
+Figure reproduction
+Included PDFs are sufficient for typesetting; plotting is optional. plot_ready.py
+contains no experiment execution. With numpy and matplotlib available, run it
+against the extracted ESM_2 directories. Join each wrapped command as one line:
+python figure_sources/plot_ready.py --synthetic results/lifecycle
+  --workflow results/lifecycle
+  --retention results/retention/analysis/continuous_analysis.json
+  --retention-runs results/retention
+  --cleanup results/cleanup/analysis/continuous_analysis.json
+  --output NEW_FIGURES --source-output NEW_FIGURE_DATA
+From the flat TeX archive, invoke plot_ready.py
+without the figure_sources/ prefix and supply paths into extracted ESM_2.
+Only actively referenced ready_* figures and their CSV/audit inputs are included.
+Lifecycle intervals use 30 paired whole runs and 10,000 seeded resamples;
+retention and cleanup intervals use their five and three paired runs. Retention bands
+are pointwise run minima/maxima, not confidence intervals. No old figures or
+artificial performance data are used. Do not plot during timed benchmarks.

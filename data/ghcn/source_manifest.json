@@ -1,0 +1,92 @@
+{
+  "dataset": "NOAA GHCN-Daily, Version 3",
+  "dataset_terms": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00861/html",
+  "derivative_notice": "All processed outputs are author-created derivatives, not official NOAA products.",
+  "doi": "10.7289/V5D21VHZ",
+  "files": [
+    {
+      "bytes": 29587,
+      "downloaded_utc": "2026-10-27T14:45:23.326062+00:00",
+      "etag": "\"7393-65d1f364ae7e4\"",
+      "last_modified": "Mon, 05 Oct 2026 22:14:56 GMT",
+      "path": "raw/readme.txt",
+      "sha256": "0e4e6f0e6947cf1add884c328a01760f31c56ef5fb86b85ed57dd5dc4c4aeaa6",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/readme.txt"
+    },
+    {
+      "bytes": 270,
+      "downloaded_utc": "2026-10-27T14:45:25.034551+00:00",
+      "etag": "\"10e-65eca3ae627b3\"",
+      "last_modified": "Tue, 27 Oct 2026 03:42:04 GMT",
+      "path": "raw/ghcnd-version.txt",
+      "sha256": "f1bd7ec882a16a7201d02d1195482766ec4b093c82f4d8558a4c57f00d82f6ff",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-version.txt"
+    },
+    {
+      "bytes": 4806810,
+      "downloaded_utc": "2026-10-27T14:46:00.028459+00:00",
+      "etag": "\"49589a-65eca30293ebb\"",
+      "last_modified": "Tue, 27 Oct 2026 03:39:04 GMT",
+      "path": "raw/USW00094728.dly",
+      "sha256": "d118bcd9fcd47f90ecc0c9598e17b8f034b453abe0a125fec49bc1bbd4476a63",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00094728.dly"
+    },
+    {
+      "bytes": 4105620,
+      "downloaded_utc": "2026-10-27T14:46:25.824182+00:00",
+      "etag": "\"3ea594-65eca22093898\"",
+      "last_modified": "Tue, 27 Oct 2026 03:35:07 GMT",
+      "path": "raw/USW00023174.dly",
+      "sha256": "3fe820097a146aedeaea4e853e08ab1655b0c5f0bda51114000709f7da2731b2",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00023174.dly"
+    },
+    {
+      "bytes": 4513590,
+      "downloaded_utc": "2026-10-27T14:46:49.931030+00:00",
+      "etag": "\"44df36-65eca30cdbc3d\"",
+      "last_modified": "Tue, 27 Oct 2026 03:39:15 GMT",
+      "path": "raw/USW00094846.dly",
+      "sha256": "e2b87329e7260007344357c90f315f3e2708f329073a8d998354092fe797ad0a",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00094846.dly"
+    },
+    {
+      "bytes": 11441354,
+      "downloaded_utc": "2026-10-27T14:47:42.426326+00:00",
+      "etag": "\"ae94ca-65dd583ca760b\"",
+      "last_modified": "Wed, 14 Oct 2026 23:44:40 GMT",
+      "path": "raw/ghcnd-stations.txt",
+      "sha256": "428eabc955883187935bce283766d5646e3ed7484b92eb0803874c0e8dd9b342",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/ghcnd-stations.txt"
+    }
+  ],
+  "license": "US NOAA government data, public domain; attribution retained",
+  "license_source": "https://www.noaa.gov/office-education/outreach-communication/faq",
+  "period_used": [
+    1991,
+    2025
+  ],
+  "stations": {
+    "USW00023174": {
+      "elevation_m": 29.6,
+      "latitude": 33.9381,
+      "longitude": -118.3867,
+      "name": "LOS ANGELES INTL AP",
+      "original_record": "USW00023174  33.9381 -118.3867   29.6 CA LOS ANGELES INTL AP                    72295"
+    },
+    "USW00094728": {
+      "elevation_m": 42.7,
+      "latitude": 40.7789,
+      "longitude": -73.9692,
+      "name": "NY CITY CNTRL PARK",
+      "original_record": "USW00094728  40.7789  -73.9692   42.7 NY NY CITY CNTRL PARK                 HCN 72506"
+    },
+    "USW00094846": {
+      "elevation_m": 204.8,
+      "latitude": 41.9603,
+      "longitude": -87.9317,
+      "name": "CHICAGO OHARE INTL AP",
+      "original_record": "USW00094846  41.9603  -87.9317  204.8 IL CHICAGO OHARE INTL AP                  72530"
+    }
+  },
+  "version_text": "The current version of GHCN Daily is 3.35-upd-2026102517 (i.e, an update that started at 2026102517 [yyyymmddhh] UTC; yyyy=year; mm=month; dd=day; hh=hour),\ncreated by appending recently available data updates to the last fully reprocessed version: 3.35-por-2026101623."
+}

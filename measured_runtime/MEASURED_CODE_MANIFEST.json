@@ -1,0 +1,146 @@
+{
+  "files": {
+    "adaptive_gateway.py": {
+      "bytes": 29167,
+      "sha256": "9ba2ce62d5b3342674ed28ab246a2a9e65996d3d61d2db1c67ff520754f13c83"
+    },
+    "continuous_analysis.py": {
+      "bytes": 38715,
+      "sha256": "6c7b1feac4e0c92fafc732292e22974bb4ff9db43bfe071bff038740c6919905"
+    },
+    "continuous_cleanup_suite.py": {
+      "bytes": 6215,
+      "sha256": "3b5b43df9f683faa413a692476395451fe1570a76406c8d1f0315ebe4d1dd084"
+    },
+    "continuous_suite.py": {
+      "bytes": 19798,
+      "sha256": "b2b015c517928f1d49915d3286de971c52aaab32e93d222fc93df8c64b2ea6c9"
+    },
+    "continuous_worker.py": {
+      "bytes": 11133,
+      "sha256": "4e3e18faaa74bd4c0d21f724f44b274dcb38e9211eee65d84727904012436b40"
+    },
+    "distributed_analysis.py": {
+      "bytes": 48393,
+      "sha256": "fb73ab17882cec386bec916a3118980b6612e7207a5098802ce7a929a3856f43"
+    },
+    "distributed_worker.py": {
+      "bytes": 10819,
+      "sha256": "dd87ee2e91dc88338fbba9ec80fd632308f95e40629e809a30777fcfa7860ffd"
+    },
+    "durable_gateway.py": {
+      "bytes": 17943,
+      "sha256": "3bb26b9df6019cabc92ddc6fa6462735d1fca02d10b458fcdd478b6e6f2ba73f"
+    },
+    "experiment_suite.py": {
+      "bytes": 38226,
+      "sha256": "79759e80eee25aef915e7439db31068a782c98e292ae7104fa5160c7444d3022"
+    },
+    "ghcn_oracle.py": {
+      "bytes": 11197,
+      "sha256": "39ae34365eda9902f47d3819f0b6a50660c7f44a653f611ab781ccbb07e73881"
+    },
+    "ghcn_release_audit.py": {
+      "bytes": 14128,
+      "sha256": "3db82bfc9189e0aac2a33ef04a50733188217f02fc5a3c3e8b1634596b7f8b00"
+    },
+    "ghcn_workflow.py": {
+      "bytes": 27075,
+      "sha256": "b6b8f656642fafec7c0f22a8a3d10883e1e2cfe1240e22d90ded79ef413879b4"
+    },
+    "integrated_controller.py": {
+      "bytes": 18688,
+      "sha256": "a5a1fe0e7c4c311db5a51fe9e27bcbe212e590905384a911b17eb9678ddbca02"
+    },
+    "lifecycle_benchmark.py": {
+      "bytes": 35835,
+      "sha256": "bc4266503b18efc62d4c6988a6114f5d799b097e2f99be5770ce655f55b8812e"
+    },
+    "network_gateway.py": {
+      "bytes": 22444,
+      "sha256": "f892852f018bf962c60aacb386f0814e2c330efb1734cdb875603ae5db500c01"
+    },
+    "persistent_workflow.py": {
+      "bytes": 10039,
+      "sha256": "2114001d1defe6e4de70e275b3ae2eaad1dec801203bd62ffa9f0cc1559e14b0"
+    },
+    "remote_case_controller.py": {
+      "bytes": 16759,
+      "sha256": "7632869108c7e099cdf1a35d3df477f776e5682d0d243f48a43b2fa78b390dd6"
+    },
+    "retention_suite.py": {
+      "bytes": 6552,
+      "sha256": "4a00c266fdf2e8a6d097056a017da258c10640ea020d0981d5eaf492f6f633a8"
+    },
+    "tests/test_adaptive_atomicity.py": {
+      "bytes": 3583,
+      "sha256": "a4c0c201b22b908d64caf5041330223cd44dc3e987e4210affa6fa143c793d10"
+    },
+    "tests/test_cleanup_work_bound.py": {
+      "bytes": 10683,
+      "sha256": "b6cc49e51d2a0c96981122a40cd64576046e28c6b9d23d51855409ddfd421459"
+    },
+    "tests/test_continuous_analysis.py": {
+      "bytes": 12281,
+      "sha256": "1d2ee0e685850daee06992223af94f93fd9b00155b251eb315a688fb6b8cd67f"
+    },
+    "tests/test_counter_storage.py": {
+      "bytes": 2448,
+      "sha256": "1ff72011690e5bfec0ed5652bb50a847f7ec525cc3f1e33596da61b4b0bb45ce"
+    },
+    "tests/test_delta_equivalence.py": {
+      "bytes": 13417,
+      "sha256": "e75211443f7ae33bba305b1f66e3cea2936140655f75c5c97001b731f35245a1"
+    },
+    "tests/test_distributed_analysis.py": {
+      "bytes": 16190,
+      "sha256": "c3cc9d16adc6d55adf1b34e5ddd0b03a1912371790e12298fa3633d832635d32"
+    },
+    "tests/test_durable_gateway.py": {
+      "bytes": 21102,
+      "sha256": "abd51bef350e0c84bfb2201f2420c5eb6a7953979127ec87f4d1987856d26562"
+    },
+    "tests/test_experiment_oracle.py": {
+      "bytes": 7500,
+      "sha256": "025c36298ba0960c86e20112badbefeae0895015bdfbc8ec0ecb8bc97536a3d4"
+    },
+    "tests/test_ghcn_release_audit.py": {
+      "bytes": 15131,
+      "sha256": "d7934da878a78e1b64fec4f1175e73bd5d01df704a5959a0fe7983f8f043da87"
+    },
+    "tests/test_ghcn_workflow.py": {
+      "bytes": 7026,
+      "sha256": "4edd845ae7cd874f2c2a409a0f131ba35183b12d1b912d8140a9931b6ef9f5f6"
+    },
+    "tests/test_integrated_controller.py": {
+      "bytes": 7757,
+      "sha256": "77a62bf33df6c3f8f2ce0a151b9969a97af7cc3d1ea01e7721f002808c33a6e9"
+    },
+    "tests/test_lifecycle_benchmark.py": {
+      "bytes": 9560,
+      "sha256": "9749a6ab7b5d932e719b1794072145587253ccf73d8feaaf6b28992b3c5e080a"
+    },
+    "tests/test_network_gateway.py": {
+      "bytes": 13558,
+      "sha256": "1ca5c9ff7f7bc65c4e697a74d78b8de727b60f08e7f7a4e1d8e8533e8d7bb308"
+    },
+    "tests/test_persistent_workflow.py": {
+      "bytes": 14709,
+      "sha256": "39fa82f6d2e0d15d70e5def89f9eb51eb954ba704109c7c4110db5b332f901e6"
+    },
+    "tests/test_remote_case_controller.py": {
+      "bytes": 12319,
+      "sha256": "4c949f2dc99d82962e93ea3dd6f9989b8318f37aec0006945d3ff9cfa4cefad6"
+    },
+    "unified_replay.py": {
+      "bytes": 21730,
+      "sha256": "d0f0d2c561a12b7f211c065d4eeb05ee9dec77fa05d5a78de58b6915f9ae9d43"
+    },
+    "workflow_release_worker.py": {
+      "bytes": 6715,
+      "sha256": "71ff7363cc220552c97d9f4e1fa999726560676a7365c10ce8e84c7abd5fa691"
+    }
+  },
+  "schema": "computing-measured-runtime-v1",
+  "scope": "Frozen code used by the retained 2026-11-09 experimental cohorts, before the empty-effect-ID input-domain patch. Raw result hashes are not rewritten."
+}

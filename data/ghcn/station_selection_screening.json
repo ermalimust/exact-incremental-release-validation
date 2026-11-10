@@ -1,0 +1,23 @@
+{
+  "station": "USW00014819",
+  "source_url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00014819.dly",
+  "sha256": "1b851748b4835e2c0e392993c77731517d44735b4febb43bb56fcb2fa0a20408",
+  "bytes": 1103490,
+  "coverage": {
+    "TMIN": [
+      1997,
+      2026
+    ],
+    "TMAX": [
+      1997,
+      2026
+    ],
+    "PRCP": [
+      1998,
+      2026
+    ]
+  },
+  "excluded_before_pipeline_execution": true,
+  "reason": "TMIN/TMAX begin in 1997, fewer than the prespecified 25 eligible baseline years in 1991-2020.",
+  "replacement": "USW00094846"
+}

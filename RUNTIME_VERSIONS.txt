@@ -1,0 +1,40 @@
+Runtime versions and retained measurement provenance
+Prepared for Software: Practice and Experience, 10 November 2026.
+
+1. Frozen measured runtime: measured_runtime/code/
+The 35 files reproduce the implementation used for the retained synthetic,
+workflow, retention, cleanup and functional-witness cohorts. Their SHA256
+values and sizes are recorded in measured_runtime/MEASURED_CODE_MANIFEST.json.
+Original result source_hashes/code_sha256 fields have not been rewritten.
+checks/final_regression_summary.json records the original 211-test run.
+This runtime accepts an empty effect ID, which can collide with the initial
+cleanup cursor and leave a stage unreclaimed after its queue is removed.
+Revoked support still blocks settlement. All retained benchmark effects use
+nonempty string IDs. This snapshot is retained to reproduce the measurements,
+including its documented boundary defect.
+
+2. Maintained runtime: code/
+Registration enforces a nonempty string effect ID, including bulk paths.
+Opening a database containing an empty or NULL effect ID fails explicitly rather than
+silently skipping it. No old ID, payload binding or ledger identity is renamed;
+existing records are not automatically deleted. Ordinary databases with
+nonempty IDs remain supported. The corrected runtime is the default for use
+and regression testing. The separate final_patch_regression_summary.json in
+checks/ records its test count and hashes.
+
+3. Scope of the patch
+The authorization predicate, retained-history algorithm, normal cleanup
+ordering and logical-row bound are unchanged. No post-patch performance
+claim is made; additional validation at registration/connection boundaries
+may have a cost. The retained timing results belong solely to version 1.
+Both versions share the same frozen inputs and raw result files, which are
+not duplicated or changed. Full outputs from any newly run experiment must
+be stored in fresh directories and not pooled into the original cohorts.
+
+4. Reproduction
+Run the README performance commands from the artifact root; they explicitly
+select measured_runtime/code. Run the unittest command against code/tests
+for the maintained implementation, or measured_runtime/code/tests for the
+original test suite. Both runtimes use Python 3.12 and the standard library.
+ready_tables.py only formats retained result summaries; its Goodput columns
+use three decimal places. It does not rerun measurements or bootstrap draws.

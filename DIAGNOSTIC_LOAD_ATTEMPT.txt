@@ -1,0 +1,14 @@
+Excluded load-feasibility attempt
+An initial single-host attempt used 120 seconds of measurement, nominal 120
+updates/s, H=4096, support size 512, fanout 32, 20 arrivals/s and four workers.
+Its first Full SQL run failed because the serial source injector did not finish
+within the 60-second drain allowance. All four workers exited normally; the
+saved source log contains 11273 acknowledged events. The last acknowledged event
+had a planned offset about 95.9 s and actual occurrence about 184 s after run start.
+This is a driver/load-feasibility diagnostic, not a completed policy comparison
+or a service-capacity estimate. No observation from it enters the formal CIs.
+The full failed run is retained in the authors' local diagnostic archive; its
+large raw files and internal review notes are not included in this public ZIP.
+The final design, specified before completed comparative long-service cells
+were inspected, uses 120 s, nominal 40 updates/s and H=1024 with the other settings
+unchanged. All three policies receive that same final external workload.

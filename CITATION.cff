@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and identify this artifact snapshot."
+type: software
+title: "Exact Incremental Release Validation for Workflows with Revocable Provenance: Reproducibility Artifact"
+authors:
+  - family-names: Huang
+    given-names: Lin
+  - family-names: Feng
+    given-names: Li
+    email: lfeng@must.edu.mo
+version: "2026-11-10-final-patch"
+abstract: "Local SQLite implementation, frozen scientific workflow inputs, independent checks, and current experimental evidence. Publication identifiers and a blanket license have not been assigned in this file."

@@ -1,0 +1,467 @@
+{
+  "cells": [
+    {
+      "config": {
+        "report_count": 20,
+        "scenario": "deadline_extension",
+        "support_size_range": [
+          107,
+          300
+        ]
+      },
+      "family": "workflow",
+      "name": "deadline_extension",
+      "paired_delta_minus_baseline": {
+        "full_sql": {
+          "full_lifecycle.cpu_ms": {
+            "mean": 15.625,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              15.625,
+              15.625
+            ],
+            "values": [
+              15.625
+            ]
+          },
+          "full_lifecycle.wall_ms": {
+            "mean": 4.563199999999995,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              4.563199999999995,
+              4.563199999999995
+            ],
+            "values": [
+              4.563199999999995
+            ]
+          },
+          "one_time_setup.wall_ms": {
+            "mean": -2.49369999999999,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -2.49369999999999,
+              -2.49369999999999
+            ],
+            "values": [
+              -2.49369999999999
+            ]
+          },
+          "operational_lifecycle.cpu_ms": {
+            "mean": 15.625,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              15.625,
+              15.625
+            ],
+            "values": [
+              15.625
+            ]
+          },
+          "operational_lifecycle.wall_ms": {
+            "mean": 7.056899999999999,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              7.056899999999999,
+              7.056899999999999
+            ],
+            "values": [
+              7.056899999999999
+            ]
+          },
+          "operational_writer_ms": {
+            "mean": 2.7667,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              2.7667,
+              2.7667
+            ],
+            "values": [
+              2.7667
+            ]
+          },
+          "refresh_history_ms": {
+            "mean": 0.039,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              0.039,
+              0.039
+            ],
+            "values": [
+              0.039
+            ]
+          },
+          "settle_validation_ms": {
+            "mean": 0.020500000000000185,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              0.020500000000000185,
+              0.020500000000000185
+            ],
+            "values": [
+              0.020500000000000185
+            ]
+          }
+        },
+        "guarded_full": {
+          "full_lifecycle.cpu_ms": {
+            "mean": -109.375,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -109.375,
+              -109.375
+            ],
+            "values": [
+              -109.375
+            ]
+          },
+          "full_lifecycle.wall_ms": {
+            "mean": -45.13819999999998,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -45.13819999999998,
+              -45.13819999999998
+            ],
+            "values": [
+              -45.13819999999998
+            ]
+          },
+          "one_time_setup.wall_ms": {
+            "mean": 8.855799999999988,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              8.855799999999988,
+              8.855799999999988
+            ],
+            "values": [
+              8.855799999999988
+            ]
+          },
+          "operational_lifecycle.cpu_ms": {
+            "mean": -93.75,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -93.75,
+              -93.75
+            ],
+            "values": [
+              -93.75
+            ]
+          },
+          "operational_lifecycle.wall_ms": {
+            "mean": -53.994,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -53.994,
+              -53.994
+            ],
+            "values": [
+              -53.994
+            ]
+          },
+          "operational_writer_ms": {
+            "mean": -17.229799999999997,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -17.229799999999997,
+              -17.229799999999997
+            ],
+            "values": [
+              -17.229799999999997
+            ]
+          },
+          "refresh_history_ms": {
+            "mean": 0.0389,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              0.0389,
+              0.0389
+            ],
+            "values": [
+              0.0389
+            ]
+          },
+          "settle_validation_ms": {
+            "mean": -0.3394999999999999,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -0.3394999999999999,
+              -0.3394999999999999
+            ],
+            "values": [
+              -0.3394999999999999
+            ]
+          }
+        }
+      },
+      "policy_means": {
+        "adaptive_delta": {
+          "full_lifecycle.cpu_ms": 203.125,
+          "full_lifecycle.wall_ms": 288.6454,
+          "one_time_setup.wall_ms": 159.9237,
+          "operational_lifecycle.cpu_ms": 62.5,
+          "operational_lifecycle.wall_ms": 128.7217,
+          "operational_writer_ms": 50.384100000000004,
+          "refresh_history_ms": 0.0394,
+          "settle_validation_ms": 1.5154
+        },
+        "full_sql": {
+          "full_lifecycle.cpu_ms": 187.5,
+          "full_lifecycle.wall_ms": 284.0822,
+          "one_time_setup.wall_ms": 162.4174,
+          "operational_lifecycle.cpu_ms": 46.875,
+          "operational_lifecycle.wall_ms": 121.6648,
+          "operational_writer_ms": 47.6174,
+          "refresh_history_ms": 0.0004,
+          "settle_validation_ms": 1.4949
+        },
+        "guarded_full": {
+          "full_lifecycle.cpu_ms": 312.5,
+          "full_lifecycle.wall_ms": 333.7836,
+          "one_time_setup.wall_ms": 151.0679,
+          "operational_lifecycle.cpu_ms": 156.25,
+          "operational_lifecycle.wall_ms": 182.7157,
+          "operational_writer_ms": 67.6139,
+          "refresh_history_ms": 0.0005,
+          "settle_validation_ms": 1.8549
+        }
+      },
+      "seeds": [
+        2026110901
+      ]
+    },
+    {
+      "config": {
+        "report_count": 20,
+        "scenario": "deadline_shortening",
+        "support_size_range": [
+          107,
+          300
+        ]
+      },
+      "family": "workflow",
+      "name": "deadline_shortening",
+      "paired_delta_minus_baseline": {
+        "full_sql": {
+          "full_lifecycle.cpu_ms": {
+            "mean": -46.875,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -46.875,
+              -46.875
+            ],
+            "values": [
+              -46.875
+            ]
+          },
+          "full_lifecycle.wall_ms": {
+            "mean": -14.047300000000007,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -14.047300000000007,
+              -14.047300000000007
+            ],
+            "values": [
+              -14.047300000000007
+            ]
+          },
+          "one_time_setup.wall_ms": {
+            "mean": -8.819500000000005,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -8.819500000000005,
+              -8.819500000000005
+            ],
+            "values": [
+              -8.819500000000005
+            ]
+          },
+          "operational_lifecycle.cpu_ms": {
+            "mean": -31.25,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -31.25,
+              -31.25
+            ],
+            "values": [
+              -31.25
+            ]
+          },
+          "operational_lifecycle.wall_ms": {
+            "mean": -5.227800000000002,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -5.227800000000002,
+              -5.227800000000002
+            ],
+            "values": [
+              -5.227800000000002
+            ]
+          },
+          "operational_writer_ms": {
+            "mean": -3.2177000000000078,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -3.2177000000000078,
+              -3.2177000000000078
+            ],
+            "values": [
+              -3.2177000000000078
+            ]
+          },
+          "refresh_history_ms": {
+            "mean": 0.054,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              0.054,
+              0.054
+            ],
+            "values": [
+              0.054
+            ]
+          },
+          "settle_validation_ms": {
+            "mean": -0.33620000000000005,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -0.33620000000000005,
+              -0.33620000000000005
+            ],
+            "values": [
+              -0.33620000000000005
+            ]
+          }
+        },
+        "guarded_full": {
+          "full_lifecycle.cpu_ms": {
+            "mean": -93.75,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -93.75,
+              -93.75
+            ],
+            "values": [
+              -93.75
+            ]
+          },
+          "full_lifecycle.wall_ms": {
+            "mean": -112.83510000000001,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -112.83510000000001,
+              -112.83510000000001
+            ],
+            "values": [
+              -112.83510000000001
+            ]
+          },
+          "one_time_setup.wall_ms": {
+            "mean": -79.6044,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -79.6044,
+              -79.6044
+            ],
+            "values": [
+              -79.6044
+            ]
+          },
+          "operational_lifecycle.cpu_ms": {
+            "mean": -46.875,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -46.875,
+              -46.875
+            ],
+            "values": [
+              -46.875
+            ]
+          },
+          "operational_lifecycle.wall_ms": {
+            "mean": -33.2307,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -33.2307,
+              -33.2307
+            ],
+            "values": [
+              -33.2307
+            ]
+          },
+          "operational_writer_ms": {
+            "mean": -12.001000000000005,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -12.001000000000005,
+              -12.001000000000005
+            ],
+            "values": [
+              -12.001000000000005
+            ]
+          },
+          "refresh_history_ms": {
+            "mean": 0.054,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              0.054,
+              0.054
+            ],
+            "values": [
+              0.054
+            ]
+          },
+          "settle_validation_ms": {
+            "mean": -0.7481,
+            "n_runs": 1,
+            "paired_bootstrap_95ci": [
+              -0.7481,
+              -0.7481
+            ],
+            "values": [
+              -0.7481
+            ]
+          }
+        }
+      },
+      "policy_means": {
+        "adaptive_delta": {
+          "full_lifecycle.cpu_ms": 203.125,
+          "full_lifecycle.wall_ms": 261.0269,
+          "one_time_setup.wall_ms": 169.3564,
+          "operational_lifecycle.cpu_ms": 31.25,
+          "operational_lifecycle.wall_ms": 91.6705,
+          "operational_writer_ms": 36.247299999999996,
+          "refresh_history_ms": 0.0544,
+          "settle_validation_ms": 0.6432
+        },
+        "full_sql": {
+          "full_lifecycle.cpu_ms": 250.0,
+          "full_lifecycle.wall_ms": 275.0742,
+          "one_time_setup.wall_ms": 178.1759,
+          "operational_lifecycle.cpu_ms": 62.5,
+          "operational_lifecycle.wall_ms": 96.8983,
+          "operational_writer_ms": 39.465,
+          "refresh_history_ms": 0.0004,
+          "settle_validation_ms": 0.9794
+        },
+        "guarded_full": {
+          "full_lifecycle.cpu_ms": 296.875,
+          "full_lifecycle.wall_ms": 373.862,
+          "one_time_setup.wall_ms": 248.9608,
+          "operational_lifecycle.cpu_ms": 78.125,
+          "operational_lifecycle.wall_ms": 124.9012,
+          "operational_writer_ms": 48.2483,
+          "refresh_history_ms": 0.0004,
+          "settle_validation_ms": 1.3913
+        }
+      },
+      "seeds": [
+        2026110901
+      ]
+    }
+  ],
+  "completed_runs": 6,
+  "interval": "whole-run paired percentile bootstrap, exploratory; all seed differences retained; no multiple-comparison adjustment",
+  "status": "passed",
+  "timing": "full and operational windows separately; nested gateway components not added to either",
+  "unit": "complete independent run paired by input seed; requests are not replicates"
+}

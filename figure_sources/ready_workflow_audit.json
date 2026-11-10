@@ -1,0 +1,84 @@
+{
+  "difference": "adaptive delta minus guarded full; negative favors delta",
+  "experiments_run": false,
+  "font_sizes_pt": [
+    9.0,
+    10.0
+  ],
+  "height_mm": 108.0,
+  "interval": "10,000 seeded whole-run bootstrap resamples (seed 20261109), as in the lifecycle driver; 95% percentile interval; exploratory, no multiplicity correction",
+  "matplotlib_version": "3.10.9",
+  "outputs": {
+    "pdf": "7f14c6c262c651b85e8a8486b4ca71b27eeeb5881453d3db6ba5d5db9c088430",
+    "png": "82c6a91ab5fbfc3a49b0eae92f7e4a5927d9332da7305ee10aeaf1e07c886a10",
+    "svg": "211f7c2996cf6d364ba181178d9a07c4bfd188f2f19e6bee813492914ffcbf3a",
+    "tiff": "fec954c36cf28893105838f40399e628366e0bc8eeeb9dd0eae324f1c03131b2"
+  },
+  "paired_seeds": [
+    2026110901,
+    2026110902,
+    2026110903,
+    2026110904,
+    2026110905,
+    2026110906,
+    2026110907,
+    2026110908,
+    2026110909,
+    2026110910,
+    2026110911,
+    2026110912,
+    2026110913,
+    2026110914,
+    2026110915,
+    2026110916,
+    2026110917,
+    2026110918,
+    2026110919,
+    2026110920,
+    2026110921,
+    2026110922,
+    2026110923,
+    2026110924,
+    2026110925,
+    2026110926,
+    2026110927,
+    2026110928,
+    2026110929,
+    2026110930
+  ],
+  "pdf_fonttype": 42,
+  "plot_source_sha256": "d75b144ed97b5ca7617a03a3ad50dc8737ae54e74bf35c53b7d30fa170274529",
+  "preview": {
+    "dpi": 100,
+    "file": "ready_workflow_preview.png",
+    "sha256": "eba33148d48ef20abeff5303e79a277844d4c60c4d132620649a3d7e7b6e1a96"
+  },
+  "scientific_ETL_included": false,
+  "selected_family": "workflow",
+  "selected_runs": 360,
+  "source_csv_sha256": {
+    "source": "f49daceec02c64a75471c5ec548cd02c1ced3b207925c665694e51c646c1891d",
+    "summary": "a9920883d7f71ddc588f3120972c577920d4c2b2d5e95a6de75361c02a3da0b0"
+  },
+  "sources": {
+    "manifest": {
+      "file": "manifest.json",
+      "sha256": "75b7ee03dda8bfb2c949e49f97b0f40de40dc8245182f38b0ffef6b9bbdc30e7"
+    },
+    "paired_summary": {
+      "file": "summary.json",
+      "sha256": "a67ffccb8462097bce82fe0b8314a01014b41a75ca4d93cfc1bc634b520233f0"
+    },
+    "run_totals": {
+      "file": "run_totals.csv",
+      "sha256": "ff036bf180cd3705736cda640c07978c49af5d58406bf7ebd90b15bea451b9b8"
+    }
+  },
+  "statistical_unit": "complete independent run, paired by seed and input hash",
+  "status": "exported_pending_visual_review",
+  "svg_fonttype": "none",
+  "text_outside_canvas": [],
+  "timing": "separately measured complete windows; no addition of nested components",
+  "whole_suite_runs": 1170,
+  "width_mm": 122
+}

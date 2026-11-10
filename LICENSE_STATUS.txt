@@ -1,0 +1,11 @@
+Rights and license status
+This package does not create or assume an MIT, Apache, CC or other blanket
+license for author code, text or derived figures. Existing LICENSE/COPYING/NOTICE
+files, if supplied by the authors, are preserved. In their absence, no general
+redistribution/modification grant is asserted; obtain one from the authors.
+Third-party data and LaTeX files retain their original notices and terms.
+NOAA GHCN-Daily source URLs, DOI, retrieval dates and dataset_terms URL are in
+data/ghcn/source_manifest.json in ESM_2. Author-generated derivatives are not
+official NOAA products. Springer class/style headers retain their conditions;
+no class geometry or copyright text is changed by packaging. If a local CTAN
+package is included, its corresponding upstream source archive is also retained.

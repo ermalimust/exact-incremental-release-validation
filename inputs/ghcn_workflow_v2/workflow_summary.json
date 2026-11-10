@@ -1,0 +1,18 @@
+{
+  "accepted_observations": 115051,
+  "artifacts": 346,
+  "lineage_depth_range": [
+    6,
+    7
+  ],
+  "parsed_observations": 115056,
+  "release_effects": 20,
+  "support_size_range": [
+    107,
+    300
+  ],
+  "validation": {
+    "artifacts_verified": 346,
+    "read_events_verified": 788
+  }
+}

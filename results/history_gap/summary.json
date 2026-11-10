@@ -1,0 +1,28 @@
+{
+  "changes": 4100,
+  "results": [
+    {
+      "accepted": true,
+      "changes": 4100,
+      "floor": 0,
+      "path": "full",
+      "policy": "full_sql"
+    },
+    {
+      "accepted": true,
+      "changes": 4100,
+      "floor": 0,
+      "path": "fallback_global_change",
+      "policy": "guarded_full"
+    },
+    {
+      "accepted": true,
+      "changes": 4100,
+      "floor": 4,
+      "path": "fallback_history",
+      "policy": "adaptive_delta"
+    }
+  ],
+  "scope": "functional history-loss witness, no performance inference",
+  "status": "passed"
+}

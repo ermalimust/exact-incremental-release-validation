@@ -1,0 +1,11 @@
+{
+  "command": "python -X utf8 -m unittest discover -s code/tests -q",
+  "source": "Captured completion output of the sequential verification and lifecycle command",
+  "tests_run": 211,
+  "test_elapsed_seconds": 18.296,
+  "result": "OK",
+  "execution_order": "After the final lifecycle-auditor fixes and before history-gap, workflow-deadline witnesses and all formal lifecycle measurements",
+  "gateway_sha256": "9ba2ce62d5b3342674ed28ab246a2a9e65996d3d61d2db1c67ff520754f13c83",
+  "lifecycle_benchmark_sha256": "bc4266503b18efc62d4c6988a6114f5d799b097e2f99be5770ce655f55b8812e",
+  "limitations": "This is a summary of the captured test result, not a reconstructed per-test log. Re-run the supplied tests to obtain a fresh verbose transcript."
+}

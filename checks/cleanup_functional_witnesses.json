@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "scope": "functional witnesses, not performance measurements",
+  "records": [
+    {
+      "policy": "full_sql",
+      "expired": false,
+      "batch_size": 1,
+      "tokens_before": 100,
+      "processed_candidates": 1,
+      "application_logical_row_changes": 4,
+      "token_table_accesses": [],
+      "raw_token_states": [
+        [
+          "issued",
+          100
+        ]
+      ],
+      "effect_state": "cancelled",
+      "denials": {
+        "count": 100,
+        "reasons": [
+          "effect_cancelled"
+        ]
+      },
+      "candidate_query_plan": [
+        [
+          4,
+          0,
+          48,
+          "SEARCH effect_support USING COVERING INDEX support_by_subject (subject_id=? AND effect_id>?)"
+        ]
+      ]
+    },
+    {
+      "policy": "full_sql",
+      "expired": true,
+      "batch_size": 1,
+      "tokens_before": 100,
+      "processed_candidates": 1,
+      "application_logical_row_changes": 4,
+      "token_table_accesses": [],
+      "raw_token_states": [
+        [
+          "issued",
+          100
+        ]
+      ],
+      "effect_state": "cancelled",
+      "denials": {
+        "count": 100,
+        "reasons": [
+          "effect_cancelled"
+        ]
+      },
+      "candidate_query_plan": [
+        [
+          4,
+          0,
+          48,
+          "SEARCH effect_support USING COVERING INDEX support_by_subject (subject_id=? AND effect_id>?)"
+        ]
+      ]
+    },
+    {
+      "policy": "guarded_full",
+      "expired": false,
+      "batch_size": 1,
+      "tokens_before": 100,
+      "processed_candidates": 1,
+      "application_logical_row_changes": 4,
+      "token_table_accesses": [],
+      "raw_token_states": [
+        [
+          "issued",
+          100
+        ]
+      ],
+      "effect_state": "cancelled",
+      "denials": {
+        "count": 100,
+        "reasons": [
+          "effect_cancelled"
+        ]
+      },
+      "candidate_query_plan": [
+        [
+          4,
+          0,
+          48,
+          "SEARCH effect_support USING COVERING INDEX support_by_subject (subject_id=? AND effect_id>?)"
+        ]
+      ]
+    },
+    {
+      "policy": "guarded_full",
+      "expired": true,
+      "batch_size": 1,
+      "tokens_before": 100,
+      "processed_candidates": 1,
+      "application_logical_row_changes": 4,
+      "token_table_accesses": [],
+      "raw_token_states": [
+        [
+          "issued",
+          100
+        ]
+      ],
+      "effect_state": "cancelled",
+      "denials": {
+        "count": 100,
+        "reasons": [
+          "effect_cancelled"
+        ]
+      },
+      "candidate_query_plan": [
+        [
+          4,
+          0,
+          48,
+          "SEARCH effect_support USING COVERING INDEX support_by_subject (subject_id=? AND effect_id>?)"
+        ]
+      ]
+    },
+    {
+      "policy": "adaptive_delta",
+      "expired": false,
+      "batch_size": 1,
+      "tokens_before": 100,
+      "processed_candidates": 1,
+      "application_logical_row_changes": 4,
+      "token_table_accesses": [],
+      "raw_token_states": [
+        [
+          "issued",
+          100
+        ]
+      ],
+      "effect_state": "cancelled",
+      "denials": {
+        "count": 100,
+        "reasons": [
+          "effect_cancelled"
+        ]
+      },
+      "candidate_query_plan": [
+        [
+          4,
+          0,
+          48,
+          "SEARCH effect_support USING COVERING INDEX support_by_subject (subject_id=? AND effect_id>?)"
+        ]
+      ]
+    },
+    {
+      "policy": "adaptive_delta",
+      "expired": true,
+      "batch_size": 1,
+      "tokens_before": 100,
+      "processed_candidates": 1,
+      "application_logical_row_changes": 4,
+      "token_table_accesses": [],
+      "raw_token_states": [
+        [
+          "issued",
+          100
+        ]
+      ],
+      "effect_state": "cancelled",
+      "denials": {
+        "count": 100,
+        "reasons": [
+          "effect_cancelled"
+        ]
+      },
+      "candidate_query_plan": [
+        [
+          4,
+          0,
+          48,
+          "SEARCH effect_support USING COVERING INDEX support_by_subject (subject_id=? AND effect_id>?)"
+        ]
+      ]
+    }
+  ]
+}

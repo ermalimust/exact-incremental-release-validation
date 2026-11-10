@@ -1,0 +1,89 @@
+{
+  "args": {
+    "data": "data\\ghcn",
+    "delta_budget": 256,
+    "epochs": 4,
+    "group_size": 16,
+    "history_limit": 4096,
+    "keep_databases": false,
+    "out": "C:\\Users\\fengl\\AppData\\Local\\Packages\\sandbox.{c5e0c982-4d9c-4f6d-a624-584108cb87a6}\\AC\\Temp\\computing_ready_20261109_eltk2r_t\\workflow_deadlines_v1",
+    "policies": [
+      "full_sql",
+      "guarded_full",
+      "adaptive_delta"
+    ],
+    "ratios": [
+      0.25,
+      1,
+      16
+    ],
+    "repeats": 1,
+    "scenarios": [
+      "deadline_extension",
+      "deadline_shortening"
+    ],
+    "seed_start": 2026110901,
+    "suite": "workflow",
+    "support_sizes": [
+      128,
+      512,
+      2048
+    ],
+    "workflow": "inputs\\ghcn_workflow_v2"
+  },
+  "completed_runs": 6,
+  "design": "fixed lifecycle input and event order per seed; independently recreated DB per policy; serial randomized cells/policies",
+  "excluded": "scientific ETL already completed; preflight/oracle/report serialization outside measured windows",
+  "logical_cpus": 20,
+  "physical_hosts": 1,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "requested_runs": 6,
+  "runs": [
+    {
+      "input_sha256": "13ecf421db51e27b0aeef44f80d6515598a52a7cb993acd68ca19b1049749607",
+      "run_id": "workflow_deadline_shortening_s2026110901_guarded_full",
+      "status": "completed"
+    },
+    {
+      "input_sha256": "13ecf421db51e27b0aeef44f80d6515598a52a7cb993acd68ca19b1049749607",
+      "run_id": "workflow_deadline_shortening_s2026110901_full_sql",
+      "status": "completed"
+    },
+    {
+      "input_sha256": "13ecf421db51e27b0aeef44f80d6515598a52a7cb993acd68ca19b1049749607",
+      "run_id": "workflow_deadline_shortening_s2026110901_adaptive_delta",
+      "status": "completed"
+    },
+    {
+      "input_sha256": "0699dba28abd624b2c08a2a14baec619d70eff0f1a49370a108d7dda786ef143",
+      "run_id": "workflow_deadline_extension_s2026110901_full_sql",
+      "status": "completed"
+    },
+    {
+      "input_sha256": "0699dba28abd624b2c08a2a14baec619d70eff0f1a49370a108d7dda786ef143",
+      "run_id": "workflow_deadline_extension_s2026110901_adaptive_delta",
+      "status": "completed"
+    },
+    {
+      "input_sha256": "0699dba28abd624b2c08a2a14baec619d70eff0f1a49370a108d7dda786ef143",
+      "run_id": "workflow_deadline_extension_s2026110901_guarded_full",
+      "status": "completed"
+    }
+  ],
+  "source_hashes": {
+    "adaptive_gateway.py": "9ba2ce62d5b3342674ed28ab246a2a9e65996d3d61d2db1c67ff520754f13c83",
+    "continuous_worker.py": "4e3e18faaa74bd4c0d21f724f44b274dcb38e9211eee65d84727904012436b40",
+    "durable_gateway.py": "3bb26b9df6019cabc92ddc6fa6462735d1fca02d10b458fcdd478b6e6f2ba73f",
+    "ghcn_oracle.py": "39ae34365eda9902f47d3819f0b6a50660c7f44a653f611ab781ccbb07e73881",
+    "ghcn_release_audit.py": "3db82bfc9189e0aac2a33ef04a50733188217f02fc5a3c3e8b1634596b7f8b00",
+    "ghcn_workflow.py": "b6b8f656642fafec7c0f22a8a3d10883e1e2cfe1240e22d90ded79ef413879b4",
+    "integrated_controller.py": "a5a1fe0e7c4c311db5a51fe9e27bcbe212e590905384a911b17eb9678ddbca02",
+    "lifecycle_benchmark.py": "bc4266503b18efc62d4c6988a6114f5d799b097e2f99be5770ce655f55b8812e",
+    "network_gateway.py": "f892852f018bf962c60aacb386f0814e2c330efb1734cdb875603ae5db500c01",
+    "persistent_workflow.py": "2114001d1defe6e4de70e275b3ae2eaad1dec801203bd62ffa9f0cc1559e14b0",
+    "workflow_release_worker.py": "71ff7363cc220552c97d9f4e1fa999726560676a7365c10ce8e84c7abd5fa691"
+  },
+  "status": "completed"
+}

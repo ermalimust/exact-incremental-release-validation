@@ -1,0 +1,76 @@
+{
+  "analysis_source_sha256": {
+    "continuous_analysis.py": "6c7b1feac4e0c92fafc732292e22974bb4ff9db43bfe071bff038740c6919905",
+    "distributed_analysis.py": "fb73ab17882cec386bec916a3118980b6612e7207a5098802ce7a929a3856f43"
+  },
+  "experiments_run": false,
+  "font_sizes_pt": [
+    9.0,
+    10.0
+  ],
+  "height_mm": 112.0,
+  "interval": "none; all three paired runs shown",
+  "matplotlib_version": "3.11.2",
+  "outputs": {
+    "pdf": "081a6323710c6b331b9b432ee75775db537ba6d08fb34fae4c7961fac824a884",
+    "png": "a4a2c53d27df113322e948ed27f28b71985a3cb1b29997f85b2bb96c04c480de",
+    "svg": "0092e3119dfa6f52d4f500ee99d6abe7c00c50b3f3438f01f41c15140ad70595",
+    "tiff": "53a8eb6c452d98b91102c2d4dbbf6731de694fe9bc1b0b71a058ba12082f35b7"
+  },
+  "paired_seeds": [
+    20261027,
+    20261028,
+    20261029
+  ],
+  "pdf_fonttype": 42,
+  "plot_source_sha256": "3f5c5d5cf7016cbbaa488b5cfd9fe0dc4f519826c2cef8584efcf16af1bc42b0",
+  "preview": {
+    "dpi": 100,
+    "file": "ready_cleanup_preview.png",
+    "sha256": "592ac8a3c2f0ed9370c9d0d4a8568f0fee3a3136132fa444182e661f4528ee1b"
+  },
+  "reclamation": "initial backlog fraction cleaned before final drain",
+  "scope": "observations, not a time bound or general service-tail guarantee",
+  "source_csv_sha256": {
+    "source": "420cb44c40ab4bc9fd84526bdc2985fcf3f9281b8c290d622f9d475ecd84578f",
+    "summary": "b897c0e2d00f1b8b6a35a3bfe64b28c6ce1fc1409a2c0d7315a9953917ed7886"
+  },
+  "sources": {
+    "continuous_analysis": {
+      "file": "continuous_analysis.json",
+      "sha256": "47cf07a5e9b64d7ae7aabeddc30078a74d6577712032a7cc07b1adf77545ad32"
+    }
+  },
+  "statistical_unit": "one independent seed-specific run",
+  "status": "exported_and_visually_reviewed",
+  "svg_fonttype": "none",
+  "text_outside_canvas": [],
+  "valid_runs": 12,
+  "visual_review": {
+    "date": "2026-11-10",
+    "embedded_font_types": [
+      "/Type0"
+    ],
+    "full_manuscript_layout_review": "separate root-agent check",
+    "observations": "Panel labels, axes, legends and notes readable; no text clipping or overlap; all declared conditions and seeds preserved. Coincident measurements may share positions.",
+    "outcome": "passed",
+    "pdf_height_mm": 111.99999999998946,
+    "pdf_text_selectable": true,
+    "pdf_width_mm": 121.99999999998471,
+    "png_pixels": [
+      1440,
+      1322
+    ],
+    "svg_text_elements": 31,
+    "tiff_pixels": [
+      2881,
+      2645
+    ],
+    "viewed": [
+      "final 300 dpi Matplotlib PNG",
+      "final 100 dpi nominal-reading-size preview"
+    ]
+  },
+  "width_mm": 122,
+  "writer_hold": "maximum instrumented nonempty backlog cleanup transaction; excludes lock acquisition wait and HTTP transport"
+}
